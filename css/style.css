@@ -130,7 +130,7 @@ section.smaller {
 .profpic .profname {
   text-align: center;
   font-size: large;
-  height: 20px;
+  min-height: 20px;
   margin-top: 15px;
   margin-bottom: 5px;
   color: black;
