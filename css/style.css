@@ -488,3 +488,21 @@ li {
     color:  rgb(120,120,120);
     font-weight: normal
 }
+
+
+.event-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 30px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  background: #fdbd17;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
