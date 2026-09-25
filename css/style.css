@@ -507,3 +507,65 @@ li {
   border-radius: 50%;
   flex: 0 0 12px;
 }
+
+/* Program and expandable content. */
+h2.titlesec {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.schedule-table {
+  table-layout: fixed;
+  text-align: left;
+}
+.schedule-table th:first-child { width: 76px; }
+.schedule-table th:nth-child(2) { width: 112px; }
+.schedule-table td, .schedule-table th { vertical-align: top; }
+.schedule-portrait img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.speaker-affiliation { font-size: .9rem; color: #555; }
+.talk-title { margin: 1rem 0 .5rem; }
+.abstract-details { margin-top: .5rem; }
+summary { cursor: pointer; color: #0056b3; }
+summary:focus-visible, a:focus-visible {
+  outline: 3px solid #bd8619;
+  outline-offset: 4px;
+}
+.expand-hint, .collapse-hint { font-size: .85rem; font-weight: 400; }
+.collapse-hint { display: none; }
+details[open] > summary .expand-hint { display: none; }
+details[open] > summary .collapse-hint { display: inline; }
+.disclosure-body { margin-top: 1rem; text-align: left; overflow-wrap: anywhere; }
+.disclosure-body p:last-child { margin-bottom: 0; }
+.cfp-details > summary .titlesec { display: inline; font-size: 2rem; }
+.cfp-details > .disclosure-body { padding-top: 1rem; }
+.paper-card {
+  margin: 1rem 0;
+  padding: 1.25rem;
+  border: 1px solid #dfe3e7;
+  border-radius: 8px;
+  text-align: left;
+  scroll-margin-top: 70px;
+}
+.paper-card h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.5; margin: .65rem 0; }
+.paper-meta { display: flex; align-items: center; gap: .6rem; color: #555; font-size: .85rem; }
+.presentation-badge { border-radius: 4px; padding: .2rem .5rem; background: #edf0f3; color: #39434d; font-weight: 600; }
+.paper-oral { border-left: 4px solid #bd8619; background: #fffaf0; }
+.oral-badge { color: #634500; background: #f6dfa6; }
+.paper-link { display: inline-block; margin-top: .8rem; font-size: .9rem; }
+@media (max-width: 575px) {
+  .schedule-table th:first-child { width: 60px; }
+  .schedule-table th:nth-child(2) { width: 0; padding: 0; }
+  .schedule-portrait { padding: 0 !important; }
+  .schedule-portrait img { display: none; }
+  .schedule-table td, .schedule-table th { padding: .75rem .4rem; }
+  .paper-card { padding: 1rem; }
+  .event-info { flex-wrap: wrap; justify-content: center; white-space: normal; font-size: 1rem; }
+  .title { font-size: 1.8rem; }
+  .subtitle { font-size: 1.1rem; }
+  .cfp-details > summary .titlesec { font-size: 1.65rem; }
+}
