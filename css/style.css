@@ -529,6 +529,8 @@ h2.titlesec {
 }
 .speaker-affiliation { font-size: .9rem; color: #555; }
 .talk-title { margin: 1rem 0 .5rem; }
+.session-papers { margin: .75rem 0 0; padding-left: 1.25rem; }
+.session-papers li + li { margin-top: .5rem; }
 .abstract-details { margin-top: .5rem; }
 summary { cursor: pointer; color: #0056b3; }
 summary:focus-visible, a:focus-visible {
