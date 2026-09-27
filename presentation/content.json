@@ -10,11 +10,11 @@
     },
     {
       "time": "08:50",
-      "name": "Yezhou (YZ) Yang",
-      "affiliation": "Arizona State University",
-      "title": "Evaluating AI (and AI Evaluation) as a Science: Towards Science-guided Reliable Agents",
-      "image": "./images/speakers/yezhou.jpg",
-      "abstract": "A prevailing narrative holds that AI model architectures have largely converged, but convergence is only the beginning, especially for Physical and Spatial Intelligence. AI progress now hinges on science-driven evaluation and iterative refinement. In this keynote, YZ will present two new works from the Active Perception Research Group: an evaluation framework that pinpoints the origins of hallucinations in vision-language models (EMNLP 26), and a spatial world modeling: a framework for learning spatially structured latent dynamics. The talk will also reflect on the research journey that led to these directions, including VISOR (used in GPT4 tech review); TextInVision (CVPRW 25 best paper); VOILA (ICLR 2025), and EraseFlow (NeurIPS 2025), and some learnings from the speaker’s engagement in a GenAI for creativity project."
+      "name": "Sebastian Scherer",
+      "affiliation": "Carnegie Mellon University",
+      "title": "Why robots need symbols: finite memory, long horizons, and the limits of scale",
+      "image": "./images/speakers/scherer.jpg",
+      "abstract": "Field robots fail where data is thinnest: degraded sensing, novel objects, unmodeled contact. Scale does produce useful representations. But the coverage an end-to-end policy needs grows like (states × actions)^horizon, while any demonstration set is a fixed budget. Every memory is finite, whether a context window, an operator's attention, or a robot's map. Finite memory forces us to group details into handles that stand for the group, and those handles are symbols, named or not. This talk argues for learning sub-problems end-to-end where data allows, and composing them symbolically where it does not. It poses two questions: where does an abstraction hold, and how do we enforce rules at its boundary (RuleFuser, ViSafe, SafeDec); and which sub-problems should become symbols at all (IVNTR, ReSYNC)."
     },
     {
       "time": "09:10",
@@ -26,11 +26,11 @@
     },
     {
       "time": "09:50",
-      "name": "Sebastian Scherer",
-      "affiliation": "Carnegie Mellon University",
-      "title": "Why robots need symbols: finite memory, long horizons, and the limits of scale",
-      "image": "./images/speakers/scherer.jpg",
-      "abstract": "Field robots fail where data is thinnest: degraded sensing, novel objects, unmodeled contact. Scale does produce useful representations. But the coverage an end-to-end policy needs grows like (states × actions)^horizon, while any demonstration set is a fixed budget. Every memory is finite, whether a context window, an operator's attention, or a robot's map. Finite memory forces us to group details into handles that stand for the group, and those handles are symbols, named or not. This talk argues for learning sub-problems end-to-end where data allows, and composing them symbolically where it does not. It poses two questions: where does an abstraction hold, and how do we enforce rules at its boundary (RuleFuser, ViSafe, SafeDec); and which sub-problems should become symbols at all (IVNTR, ReSYNC)."
+      "name": "Yezhou (YZ) Yang",
+      "affiliation": "Arizona State University",
+      "title": "Evaluating AI (and AI Evaluation) as a Science: Towards Science-guided Reliable Agents",
+      "image": "./images/speakers/yezhou.jpg",
+      "abstract": "A prevailing narrative holds that AI model architectures have largely converged, but convergence is only the beginning, especially for Physical and Spatial Intelligence. AI progress now hinges on science-driven evaluation and iterative refinement. In this keynote, YZ will present two new works from the Active Perception Research Group: an evaluation framework that pinpoints the origins of hallucinations in vision-language models (EMNLP 26), and a spatial world modeling: a framework for learning spatially structured latent dynamics. The talk will also reflect on the research journey that led to these directions, including VISOR (used in GPT4 tech review); TextInVision (CVPRW 25 best paper); VOILA (ICLR 2025), and EraseFlow (NeurIPS 2025), and some learnings from the speaker’s engagement in a GenAI for creativity project."
     },
     {
       "time": "10:10",
