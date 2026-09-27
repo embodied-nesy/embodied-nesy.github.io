@@ -1,0 +1,11 @@
+{
+  "slides": 25,
+  "rendered_pages": 25,
+  "all_slide_text_present_in_render": true,
+  "reviewer_names_in_source": 43,
+  "all_reviewer_names_present_verbatim_on_committee_slides": true,
+  "source_content_check": "All 18 published paper titles, 5 keynote names/titles/affiliations/times, and 6 organizer names present",
+  "all_shapes_within_slide_bounds": true,
+  "renderer": "Microsoft PowerPoint 16.113.2",
+  "panel_update": "Slide 9 includes Jean Oh as invited panelist; slide 23 contains exactly Sebastian Scherer, Jiayuan Mao, Yezhou (YZ) Yang, Jean Oh; agenda updated"
+}

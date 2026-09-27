@@ -1,0 +1,186 @@
+{
+  "speakers": [
+    {
+      "time": "08:30",
+      "name": "Alessandra Sciutti",
+      "affiliation": "Istituto Italiano di Tecnologia",
+      "title": "Grounding Meaning through Embodied and Social Cognitive Development",
+      "image": "./images/speakers/sciutti.jpeg",
+      "abstract": "Neuro-symbolic robotics aims to combine the adaptability of learning-based approaches with the interpretability and reasoning capabilities of symbolic representations. For robots operating in the real world, however, meaningful knowledge must remain grounded in embodied experience and continuously shaped through interaction with the environment and with other agents. In this talk, I will argue that developmental cognitive robotics offers key principles for building such grounded representations. Drawing on research in developmental robotics and human–robot interaction, I will discuss how body representations, sensorimotor contingencies, action understanding, and social interaction provide the experiential foundations for prediction, adaptation, communication, and mutual understanding. Rather than viewing embodiment merely as a source of sensory input, I will present cognitive development as the process through which meaning is progressively constructed and shared. I will conclude by discussing how developmental principles can inspire the next generation of embodied neuro-symbolic robots, capable of continuous learning, adaptation, and richer interaction with humans."
+    },
+    {
+      "time": "08:50",
+      "name": "Sebastian Scherer",
+      "affiliation": "Carnegie Mellon University",
+      "title": "Why robots need symbols: finite memory, long horizons, and the limits of scale",
+      "image": "./images/speakers/scherer.jpg",
+      "abstract": "Field robots fail where data is thinnest: degraded sensing, novel objects, unmodeled contact. Scale does produce useful representations. But the coverage an end-to-end policy needs grows like (states × actions)^horizon, while any demonstration set is a fixed budget. Every memory is finite, whether a context window, an operator's attention, or a robot's map. Finite memory forces us to group details into handles that stand for the group, and those handles are symbols, named or not. This talk argues for learning sub-problems end-to-end where data allows, and composing them symbolically where it does not. It poses two questions: where does an abstraction hold, and how do we enforce rules at its boundary (RuleFuser, ViSafe, SafeDec); and which sub-problems should become symbols at all (IVNTR, ReSYNC)."
+    },
+    {
+      "time": "09:10",
+      "name": "Jiayuan Mao",
+      "affiliation": "Amazon Robotics / University of Pennsylvania",
+      "title": "Integrated Learning and Planning with Neuro-Symbolic Concepts",
+      "image": "./images/speakers/jiayuan.jpg",
+      "abstract": "I aim to build intelligent agents that continually learn, reason, and plan: agents that can answer queries, infer human intentions, and pursue long-horizon goals spanning hours to days. In this talk, I will describe a general framework for learning and reasoning with neuro-symbolicconcepts. Drawing inspirations from theories and studies in cognitive science, neuro-symbolic concepts serve as compositional abstractions of the physical world, representing object properties, relations, and affordances, and actions. Each concept combines symbolic programs, which specify how concepts can be structured and composed, with neural networks, which ground them in sensory inputs and agent actions. Like words combining into sentences, these concepts can be reused and recombined to support reasoning and planning in novel situations. I show that systems that leverage neuro-symbolic concepts demonstrate superior data efficiency, enable agents to reason and plan more quickly, and achieve strong generalization in novel situations and for novel goals."
+    },
+    {
+      "time": "09:50",
+      "name": "Yezhou (YZ) Yang",
+      "affiliation": "Arizona State University",
+      "title": "Evaluating AI (and AI Evaluation) as a Science: Towards Science-guided Reliable Agents",
+      "image": "./images/speakers/yezhou.jpg",
+      "abstract": "A prevailing narrative holds that AI model architectures have largely converged, but convergence is only the beginning, especially for Physical and Spatial Intelligence. AI progress now hinges on science-driven evaluation and iterative refinement. In this keynote, YZ will present two new works from the Active Perception Research Group: an evaluation framework that pinpoints the origins of hallucinations in vision-language models (EMNLP 26), and a spatial world modeling: a framework for learning spatially structured latent dynamics. The talk will also reflect on the research journey that led to these directions, including VISOR (used in GPT4 tech review); TextInVision (CVPRW 25 best paper); VOILA (ICLR 2025), and EraseFlow (NeurIPS 2025), and some learnings from the speaker’s engagement in a GenAI for creativity project."
+    },
+    {
+      "time": "10:10",
+      "name": "Joyce Chai",
+      "affiliation": "University of Michigan",
+      "title": "Language Guided Failure Recovery in Robots",
+      "image": "./images/speakers/chai.jpg",
+      "abstract": "Language plays a central role in human learning and skill acquisition. With the emergence of large language models (LLMs), we are entering a new era in which language is increasingly used to guide task learning in robots. In this talk, I will present some recent work from my lab that explores language use in robotic tasks, focusing on failure recovery and safety-conscious planning."
+    }
+  ],
+  "organizers": [
+    {
+      "name": "Ruwan Wickramarachchi",
+      "affiliation": "Bosch Center for AI",
+      "image": "./images/organizers/ruwan.jpg"
+    },
+    {
+      "name": "Bowen Li",
+      "affiliation": "Carnegie Mellon University",
+      "image": "./images/organizers/bowen.jpg"
+    },
+    {
+      "name": "Tom Silver",
+      "affiliation": "Princeton University",
+      "image": "./images/organizers/tom.jpg"
+    },
+    {
+      "name": "Alessandro Oltramari",
+      "affiliation": "Bosch Center for AI; Carnegie Bosch Institute",
+      "image": "./images/organizers/alessandro.jpg"
+    },
+    {
+      "name": "Jonathan Francis",
+      "affiliation": "Bosch Center for AI; Carnegie Mellon University",
+      "image": "./images/organizers/jon.png"
+    },
+    {
+      "name": "Jean Oh",
+      "affiliation": "Carnegie Mellon University",
+      "image": "./images/organizers/jean.jpg"
+    }
+  ],
+  "papers": [
+    {
+      "id": "paper-1",
+      "type": "Oral",
+      "title": "iFlax: Neuro-Symbolic Learning for Long-Horizon Task Planning Under Complex Logical Constraints",
+      "url": "https://openreview.net/forum?id=l0Fj6DBe3u"
+    },
+    {
+      "id": "paper-9",
+      "type": "Oral",
+      "title": "Logic-VLA: A Temporal Logic Conditioned Vision-Language-Action Model",
+      "url": "https://openreview.net/forum?id=WSdpJe6GS2"
+    },
+    {
+      "id": "paper-13",
+      "type": "Oral",
+      "title": "Task-Aware Conformal State Estimation for Reliable Robotic Planning",
+      "url": "https://openreview.net/forum?id=2I21cecxcP"
+    },
+    {
+      "id": "paper-16",
+      "type": "Oral",
+      "title": "ActionGround: Training-Free Runtime Refinement of Frozen VLA Policies",
+      "url": "https://openreview.net/forum?id=63WdvPHujJ"
+    },
+    {
+      "id": "paper-2",
+      "type": "Poster",
+      "title": "CLAMP: Constrained Decoding for Vision-Language Embodied Planning",
+      "url": "https://openreview.net/forum?id=rlohLG33Eu"
+    },
+    {
+      "id": "paper-3",
+      "type": "Poster",
+      "title": "From Words to Safety: Language-Conditioned Safety Filtering for Robot Navigation",
+      "url": "https://openreview.net/forum?id=jJxv8XP7Yn"
+    },
+    {
+      "id": "paper-6",
+      "type": "Poster",
+      "title": "Learning to Coach: A Structured Framework for Human Skill Development",
+      "url": "https://openreview.net/forum?id=wdVMryddOB"
+    },
+    {
+      "id": "paper-8",
+      "type": "Poster",
+      "title": "RiskGuard: A Revision Method Based on Unified Differentiable Risk Fields for Safe Autonomous Driving",
+      "url": "https://openreview.net/forum?id=mmJWE54AvM"
+    },
+    {
+      "id": "paper-10",
+      "type": "Poster",
+      "title": "StageCraft: Execution Aware Mitigation of Distractor and Obstruction Failures in VLA Models",
+      "url": "https://openreview.net/forum?id=eh3XESwlL9"
+    },
+    {
+      "id": "paper-11",
+      "type": "Poster",
+      "title": "Combining Large Language Models and Gradient-Free Optimization for Automatic Control Policy Synthesis",
+      "url": "https://openreview.net/forum?id=u0Twe76K8T"
+    },
+    {
+      "id": "paper-12",
+      "type": "Poster",
+      "title": "PROTEA: Securing Robot Task Planning and Execution",
+      "url": "https://openreview.net/forum?id=SSaaPbjE2V"
+    },
+    {
+      "id": "paper-15",
+      "type": "Poster",
+      "title": "Specification-Scoped Conformal Grounding for Symbolic Safety Shields",
+      "url": "https://openreview.net/forum?id=6fA8lGCfaN"
+    },
+    {
+      "id": "paper-17",
+      "type": "Poster",
+      "title": "IFG: Internet-Scale Guidance for Functional Grasping Generation",
+      "url": "https://openreview.net/forum?id=an1o2EZ3dJ"
+    },
+    {
+      "id": "paper-19",
+      "type": "Poster",
+      "title": "Towards a Modular Ontology for Monitoring and Correcting Agentic Behavior: The Onto-Task Ontology",
+      "url": "https://openreview.net/forum?id=357abYDMzC"
+    },
+    {
+      "id": "paper-20",
+      "type": "Poster",
+      "title": "Learning the Right Abstraction for Norm Discovery",
+      "url": "https://openreview.net/forum?id=Ki2oCpOkTt"
+    },
+    {
+      "id": "paper-21",
+      "type": "Poster",
+      "title": "Beyond End-Task Success: How to Audit Visual Experience Retrieval in Robotics",
+      "url": "https://openreview.net/forum?id=hl8srt6XAC"
+    },
+    {
+      "id": "paper-22",
+      "type": "Poster",
+      "title": "VLM-Guided Semantic Safety for Onboard Aerial Autonomy",
+      "url": "https://openreview.net/forum?id=P5XEz3FWfg"
+    },
+    {
+      "id": "paper-24",
+      "type": "Poster",
+      "title": "Do All Skills Forget Alike? A Preliminary Study of Task-Specific Forgetting in Continual Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=Uvwd9tUGed"
+    }
+  ]
+}
